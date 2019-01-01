@@ -1,0 +1,41 @@
+.background{
+  background-color: #FF3B40;
+  height: 300px;
+  width: 650px;
+  color: #FFFFFF;
+}
+.content{
+  padding: 30px;
+}
+.image-section{
+  padding: 30px 0 0 0;
+}
+.footer{
+  background: white;
+}
+/*--------------------------------------------hovering----------------------------------------------*/
+.imagebox{
+  position: relative;
+  overflow: hidden;
+}
+.imagebox img{}
+.textbox{
+  position: absolute;
+  top: 460;
+  left: 90;
+  background: rgba(255,59,64,0.8);
+  transition: 0.1s;
+  color: white;
+}
+.imagebox:hover .textbox{top: 360;}
+.imagebox:hover img{transform: scale(1.2);transition: all 1.3s;}
+.name{
+  font-size: 25px;
+  padding: 30px 30px 0 30px;
+}
+
+.manager1{
+  padding-left: 40px;
+  font-size: 15px;
+  padding-bottom: 30px;
+}

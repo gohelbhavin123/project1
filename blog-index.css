@@ -1,0 +1,25 @@
+.blog-index-background{
+  background-color: #FF3B40;
+  height: 90px;
+  width: 102px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 14px;
+}
+.blog-index-headimage{
+  /* height: 399px;
+  width: 650px; */
+}
+.image-caption{
+  padding: 20px 0 0 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #343434;
+}
+.blog-index-subheadimage{
+}
+.imagebox img{max-width: 100%;}
+.imagebox:hover img{transform: scale(1.2);transition: all 1.3s;opacity: 0.5;}
+/* .grid-item { width: 50%; } */
